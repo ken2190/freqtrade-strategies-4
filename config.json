@@ -67,7 +67,6 @@
         "ATOM/USDT",
         "FIL/USDT",
         "UNI/USDT",
-        "AAVE/USDT",
         "SNX/USDT",
         "ZIL/USDT",
         "ZEC/USDT",
@@ -89,13 +88,14 @@
         "ONT/USDT",
         "EGLD/USDT",
         "BAT/USDT",
-        "BTT/USDT",
+        "XNO/USDT",
         "STX/USDT",
         "ZRX/USDT",
         "LUNA/USDT",
         "REN/USDT",
         "NEAR/USDT",
 	"ICX/USDT",
+	"HNT/USDT"
         ],
         "pair_blacklist": [
         ]
