@@ -94,8 +94,8 @@
         "LUNA/USDT",
         "REN/USDT",
         "NEAR/USDT",
-	"ICX/USDT",
-	"HNT/USDT"
+        "ICX/USDT",
+        "HNT/USDT"
         ],
         "pair_blacklist": [
         ]
