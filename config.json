@@ -98,7 +98,6 @@
 	"HNT/USDT"
         ],
         "pair_blacklist": [
-		"BNB/*"
         ]
     },
     "pairlists": [
