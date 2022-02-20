@@ -99,7 +99,11 @@
         ],
         "pair_blacklist": []
     },
-    "pairlists": [{"method": "StaticPairList"}],
+    "pairlists": [
+        {
+            "method": "StaticPairList"
+        }
+    ],
     "edge": {
         "enabled": false,
         "process_throttle_secs": 3600,
