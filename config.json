@@ -6,7 +6,7 @@
     "amend_last_stake_amount": true,
     "tradable_balance_ratio": 0.98,
     "fiat_display_currency": "USD",
-    "dry_run": false,
+    "dry_run": true,
     "cancel_open_orders_on_exit": false,
     "unfilledtimeout": {
         "buy": 10,
