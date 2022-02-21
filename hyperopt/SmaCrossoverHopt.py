@@ -16,12 +16,17 @@ class SmaCrossoverHopt(IStrategy):
     INTERFACE_VERSION = 2
     
     # Determine timeframe and # of candles before strategysignals becomes valid
-    timeframe = '1d'
+    timeframe = '1h'
     
     # Determine roi take profit and stop loss points
-    minimal_roi = {"0":  1000.00}
+    minimal_roi = {
+        "0": 0.31,
+        "470": 0.183,
+        "1145": 0.08,
+        "2580": 0
+    }
 
-    stoploss = -1000.00
+    stoploss = -0.346
     trailing_stop = False
     use_sell_signal = True
     sell_profit_only = False
@@ -51,8 +56,8 @@ class SmaCrossoverHopt(IStrategy):
 # --- Define spaces for the indicators ---
 
     # Buy space - UNCOMMENT THIS FOR HYPEROPTING
-    quick_sma = IntParameter(45, 55, default=50, space="buy")
-    slow_sma = IntParameter(195, 205, default=200, space="buy")
+    quick_sma = IntParameter(45, 55, default=53, space="buy")
+    slow_sma = IntParameter(195, 205, default=203, space="buy")
 
 # --- Used indicators of strategy code ----
     def populate_indicators(self, dataframe: DataFrame, metadata: dict) -> DataFrame:
